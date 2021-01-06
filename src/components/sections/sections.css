@@ -1,0 +1,51 @@
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+.phone {
+  margin-right: 10px;
+}
+.header-links {
+  margin-left: -10px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+.nav-item {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 20px;
+}
+.nav-link {
+  color: #4462AE!important;
+}
+.nav-link:hover {
+  color: rgb(161, 161, 161)!important;
+}
+footer {
+  text-align: center;
+  height: 130px;
+  background: #BBBBBB;
+}
+footer .content {
+  padding-top: 27px;
+  padding-bottom: 16px;
+}
+.copyrigth {
+  max-width: 230px;
+  margin-left: 440px;
+}
+.navbar { 
+  padding: 0;
+}

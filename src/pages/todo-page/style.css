@@ -1,0 +1,112 @@
+.todos {
+  max-width: 480px;
+  width: 100%;
+  margin-left: 60px;
+  background: #E1E1E1;
+  padding: 38px 16px 28px;
+  border-radius: 7px;
+}
+.todo-con {
+  display: grid;
+  grid-template-columns: 0.95fr 1fr;
+  background-color:  #D7D7D6;
+  padding: 0;
+}
+.todo .form {
+  margin-left: 114px;
+  width: 358px;
+}
+.todo-add {
+  padding-top: 54px;
+  margin-bottom: 13px;
+}
+.todo-add input {
+  width: 247px;
+  height: 51px;
+  background: #E3E3E3;
+  color: #3E3E3E;
+  padding: 0 10px;
+  border: 1px solid #bebebe;;
+  border-radius: 5px;
+}
+.todo-add .btn {
+  width: 100px;
+  height: 51px;
+  margin-left: 11px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #EBEBE9;
+  border-radius: 6px; 
+  border: 1px solid #EBEBE9;
+  color: #5A5A5A;
+  padding: 0;
+  margin-top: -4px;
+}
+h3 {
+  margin-left: 115px;
+}
+h3:after {
+
+}
+.todos ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.todos ul li {
+  margin-bottom: 10px;
+  background: rgba(237, 250, 236, 0.6);
+  min-height: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.todos ul li .label {
+  font-size: 18px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.todos ul li .label.important {
+  font-weight: bold;
+  color: rgb(96, 119, 247);
+}
+.todos ul li .label.done {
+  text-decoration: line-through;
+}
+.todo-btn {
+  margin-left: auto;
+}
+.change-btn {
+  margin: 0 7px;
+}
+.change-btn, .del-btn, .check-btn {
+  width: 45px;
+  height: 45px;
+  font-size: 22px;
+  border: 2px solid #cecece;
+}
+.add-btn-con {
+  background: #D7D7D6;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+.add-btn {
+  margin-left: 400px;
+  width: 340px;
+  border-radius: 50px;
+  height: 60px;
+  font-size: 22px;
+  background-color: #b3b3b3;
+  border: 1px solid #9b9b9b
+}
+.edit-input {
+  width: 230px;
+  padding: 0 10px;
+}
